@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"target": "ES6",
+		"moduleResolution": "node",
+		"paths": {
+			"@hooks/*": ["./src/hooks/*"],
+			"@styles/*": ["./src/styles/*"],
+			"@components/*": ["./src/components/*"],
+			"@contexts/*": ["./src/contexts/*"],
+			"@utils/*": ["./src/utils/*"],
+			"public/*": ["./public/*"]
+		}
+	},
+	"include": ["src"],
+	"exclude": ["dist", "node_modules"]
+}
